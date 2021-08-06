@@ -35,33 +35,30 @@
           </p>
         </div>
         <div class="col-9 container-fluid" style="color: #01ac01; background-color: black; text-align: left;">
-          <h3>Journal Entry 6</h3>
-          <h5>Date: 7/5/2021</h5>
+          <h3>Journal Entry 8</h3>
+          <h5>Date: 7/26/2021</h5>
           <h5>Goals:</h5>
-          <p style="color: #01ac01; text-indent: 5%;">Reinforce drive base</p>
-          <p style="color: #01ac01; text-indent: 5%;">Catch up on notebook</p>
-          <p style="color: #01ac01; text-indent: 5%;">Program the drive base prototype</p>
-          <p style="color: #01ac01; text-indent: 5%;">Decide on a lift design</p>
+          <p style="color: #01ac01; text-indent: 5%;">Stop Lift from releasing the goal due to the influence of gravity.</p>
+          <p style="color: #01ac01; text-indent: 5%;">Add a mechanism to hold a second goal.</p>
+          <p style="color: #01ac01; text-indent: 5%;">Add a locking mechanism to the lift.</p>
           <h5>Decisions</h5>
             <h6 style="text-indent: 5%;">Problems:</h6>
-              <p style="text-indent: 10%;">Wheels need to be reinforced</p>
-              <p style="text-indent: 10%;">One of the motors have a different gearbox in it</p>
+              <p style="text-indent: 10%;">We were not able to bring two mobile goals up the platform.</p>
+              <p style="text-indent: 10%;">Second goal mechanism was unstable.</p>
           <h6 style="text-indent: 5%;">Solutions:</h6>
-              <p style="text-indent: 10%;">Used 5 wide c-channel and axles to reinforce the wheel wells</p>
-              <p style="text-indent: 10%;">Exchange it for the same gearbox that is in the rest of the drive base motors.</p>
+              <p style="text-indent: 10%;">Replacing drive train motors to go from 200 rpm to 100 rpm.</p>
+              <p style="text-indent: 10%;">Attached metal to the mechanism and the center of the robot.</p>
           <h5>Accomplishments/Log of Events:</h5>
-            <p style="text-indent: 5%;">As mentioned in the last meeting, our wheel wells were too weak and needed to be reinforced. We decided on reinforcing it with 5 wide c-channels. I cut the 5 wide down to the right size and proceeded to attach them to each wheel well. This worked even better than we thought it would.We also needed to catch up on our journal entries so we wrote them.</p>
-            <img class="img-fluid" src="IMG_0072.JPG"></img>
-            <p style="text-indent: 5%;">As for the code, the one I prepared was unequipped for the task at hand as I had just started learning PROS and the one I wrote was faulty as a result. After trial and error I was able to piece together a code that works by having directional movement on one joystick with turning on the other.</p>
-            <img class="img-fluid" src="Code_Example.png"></img>
-            <h5>Author: Raymond Nelson and Evan Garlepied</h5>
+            <p style="text-indent: 5%;">On the code side of the happenings tonight was the tale of how I was able to use some of the training my mentor gave me in c++ to piece together a solution to the problem of gravity. You see we had the common issue of our lift falling down due to gravity and this was not something we could write off because it would invalidate the point of the lift and make it ineffective. I initialized this process by modifying my original code for the movement of the lift to include the essential process of taking the value of the motors position and assigning it to the variable “hold” with this I was then able to tell the robot that if the lift fell five units below the “hold” value it was to set the motors to a rpm of one. The reason I could not set it to a constant one is because when I tried that it would constantly raise the lift at all times and this could get dangerous for the safety of the robot if it kept going. After the mechanism for the second mobile goal was built it also had this problem, thankfully I was able to implement the same fix for that.</p>
+            <p style="text-indent: 5%;">Raymond and I had decided on adding a second mechanism to lift another mobile goal. I had the idea of adding an angle bar onto a gear so we could lift it and drag a mobile goal  behind us. I built it and attached it to the robot but then I ran into the problem of stabilization. Everytime we would pick up a goal the mechanism would  shake and the metal would bend. So I attached some metal to the bottom of the mechanism  and attached it to the center of our robot and this fixed the problem.  Next we ran into the issue where we could not get up the ramp with 2 mobile goals so we decided to change the gearboxes on the motors of the drivebase to 100 rpm instead of 200 rpm.</p>
+            <h5>Author: Raymond Nelson/Evan Garlepied</h5>
             <p>Timestamp: 08:26 pm</p>
             <div class="row">
                 <div class="col-6">
-                    <a href="Journal_7_1_2021.html" style="color: #01ac01; text-align: left;">Last</a>
+                    <a href="Journal_7_26_2021.html" style="color: #01ac01; text-align: left;">Last</a>
                 </div>
                 <div class="col-6" style="text-align: right;">
-                    <a href="Journal_7_22_2021.html" style="color: #01ac01;">Next</a>
+                    <a href="Journal_8_1_2021.html" style="color: #01ac01;">Next</a>
                 </div>
           </div>
         </div>
