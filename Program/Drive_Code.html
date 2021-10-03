@@ -45,6 +45,10 @@
                 <p style="font-weight: bold;">Solution:</p>
                 <p style="text-indent: 10%;">This challenge was origianlly thought to be an easier one to solve, however it became a larger issue due to the change from Cortex to V5 a few years ago. Originally in the Cortex system I would set the motors to a low power to counteract gravity. This solution was not effective in V5 for one simple reason, the motors were stronger as such even if the motors were set the minimum value of one they would still move up slightly over time. To my schock I was able to solve this on my second try, I used the C++ training I was getting from my mentor to create what I call the Anti-grav Code. What it does is each time we move our lift or tail it tracks the position of of the motor based on its encoder value. It then keeps tracking the value of the motor and it it ever drops 5 units below the set value it sets the motor to a power of one to keep it up in the air.</p>
                 <img class="img-fluid" src="Anti_Grav_Code.jpg">
+                <p style="font-weight: bold;">Problem: <a style="font-weight: normal;">Change in drive base</a></p>
+                <p style="font-weight: bold;">Solution:</p>
+                <p style="text-indent: 10%;">The change in drive base changed the way that the drive code had to implemented and I took thins chance to also change the control scheme to one that was centered around one joy-stick per side of robot. (reference image below)</p>
+                <img class="img-fluid" src="Driver_Control_Code_Update.jpg">
             </div>
             <div style="text-align: left;">
               <a href="https://github.com/Raymond1225/Arcade-Drive-2-3547G/blob/master/src/main.cpp" style="color: #01ac01;">View Full Code Here (Code Repository)</a>
