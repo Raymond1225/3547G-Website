@@ -46,6 +46,10 @@
                 <p style="font-weight: bold;">Solution:</p>
                 <p style="text-indent: 10%;">I went through a similar process for this section however it was slightly different from the one above. Because the X-Drive does not effect turns I used the original value of 12.57 inches. To figure out the distace the wheels need to travel in order to turn 90 degrees I took the distance from one wheel to the opposite wheel to find a diameter which was divided by 2 to get a radius (9.5 inches), this was put into 2ℼr to find the circumfrence of 59.69 inches. When I put this information into the code I took on e quarter of the circumfrence of the circle and divided it by the circumfrence of the wheels and multiplied it by 1800 to find the amount of ticks per 90 degree rotation (2,137 ticks) and input that into the motor ties the number of times I wanted to rotate.</p>
                 <img class="img-fluid" src="90_Degree_Turn.jpg">
+                <p style="font-weight: bold;">Problem: <a style="font-weight: normal;">Drive Base Change</a></p>
+                <p style="font-weight: bold;">Solution:</p>
+                <p style="text-indent: 10%;">The Update of the drive base changed how the auton needed to be programed on a fundamental level because the 1.4x distance increase from the x-drive was gone and the center our our tuns was not located at the front of out robot instead of the center of the drive base. To account for these changes a few things needed to happen first I redid the distance calculations for the wheels so that they did not account for the x-drive distance increase so they now look like this (reference image 1).</p>
+                <img class="img-fluid" src="Updated Drive Fwd Programs.jpg">
             </div>
             <div style="text-align: left;">
               <a href="https://github.com/Raymond1225/Arcade-Drive-2-3547G/blob/master/src/main.cpp" style="color: #01ac01;">View Full Code Here (Code Repository)</a>
